@@ -37,7 +37,9 @@ struct CoinManager {
                     self.delegate?.didFailWithError(error!);
                 }
                 if let safeData = data {
-                    print(self.parseJSON(safeData));
+                    if let coinData = self.parseJSON(safeData) {
+                        self.delegate?.didUpdateCoin(self, coinData);
+                    }
                 }
             };
             
