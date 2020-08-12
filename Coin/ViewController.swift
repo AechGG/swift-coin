@@ -11,6 +11,9 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var currencyPicker: UIPickerView!
+    @IBOutlet weak var rateLabel: UILabel!
+    @IBOutlet weak var currencyLabel: UILabel!
+    
     var coinManager: CoinManager = CoinManager();
     
     override func viewDidLoad() {
@@ -54,7 +57,8 @@ extension ViewController: UIPickerViewDataSource {
 extension ViewController: CoinManagerDelegate {
     func didUpdateCoin(_ coinManager: CoinManager, _ coinData: CoinData) {
         DispatchQueue.main.async {
-            print(coinData);
+            self.currencyLabel.text = coinData.asset_id_quote;
+            self.rateLabel.text = String(format: "%.2f", coinData.rate);
         }
     }
     

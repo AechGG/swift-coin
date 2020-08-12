@@ -96,7 +96,9 @@
                         <viewLayoutGuide key="safeArea" id="CjI-yV-vnC"/>
                     </view>
                     <connections>
+                        <outlet property="currencyLabel" destination="MAn-y0-nXv" id="f9a-Ho-KCb"/>
                         <outlet property="currencyPicker" destination="ct2-jk-pgH" id="FE8-JY-r3W"/>
+                        <outlet property="rateLabel" destination="N2a-Ax-iRV" id="wSa-dJ-K43"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
