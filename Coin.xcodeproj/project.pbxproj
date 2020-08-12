@@ -58,16 +58,40 @@
 		8298C5C724E43FAC00E9A765 /* Coin */ = {
 			isa = PBXGroup;
 			children = (
+				8298C5E024E4407200E9A765 /* Model */,
+				8298C5E224E4408800E9A765 /* Controller */,
+				8298C5E124E4408300E9A765 /* View */,
 				8298C5C824E43FAC00E9A765 /* AppDelegate.swift */,
 				8298C5CA24E43FAC00E9A765 /* SceneDelegate.swift */,
-				8298C5CC24E43FAC00E9A765 /* ViewController.swift */,
-				8298C5DE24E4401800E9A765 /* Main.storyboard */,
 				8298C5D124E43FB000E9A765 /* Assets.xcassets */,
 				8298C5D324E43FB000E9A765 /* LaunchScreen.storyboard */,
-				8298C5DC24E43FEE00E9A765 /* CoinManager.swift */,
 				8298C5D624E43FB000E9A765 /* Info.plist */,
 			);
 			path = Coin;
+			sourceTree = "<group>";
+		};
+		8298C5E024E4407200E9A765 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8298C5DC24E43FEE00E9A765 /* CoinManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8298C5E124E4408300E9A765 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8298C5DE24E4401800E9A765 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8298C5E224E4408800E9A765 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8298C5CC24E43FAC00E9A765 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
