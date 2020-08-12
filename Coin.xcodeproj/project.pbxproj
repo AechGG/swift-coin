@@ -14,6 +14,7 @@
 		8298C5D524E43FB000E9A765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8298C5D324E43FB000E9A765 /* LaunchScreen.storyboard */; };
 		8298C5DD24E43FEE00E9A765 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8298C5DC24E43FEE00E9A765 /* CoinManager.swift */; };
 		8298C5DF24E4401800E9A765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8298C5DE24E4401800E9A765 /* Main.storyboard */; };
+		8298C5E624E445BC00E9A765 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8298C5E524E445BC00E9A765 /* CoinData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8298C5D624E43FB000E9A765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8298C5DC24E43FEE00E9A765 /* CoinManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
 		8298C5DE24E4401800E9A765 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8298C5E524E445BC00E9A765 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				8298C5DC24E43FEE00E9A765 /* CoinManager.swift */,
+				8298C5E524E445BC00E9A765 /* CoinData.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				8298C5DD24E43FEE00E9A765 /* CoinManager.swift in Sources */,
 				8298C5CD24E43FAC00E9A765 /* ViewController.swift in Sources */,
+				8298C5E624E445BC00E9A765 /* CoinData.swift in Sources */,
 				8298C5C924E43FAC00E9A765 /* AppDelegate.swift in Sources */,
 				8298C5CB24E43FAC00E9A765 /* SceneDelegate.swift in Sources */,
 			);
